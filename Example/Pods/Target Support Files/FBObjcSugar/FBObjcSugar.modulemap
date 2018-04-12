@@ -1,0 +1,6 @@
+framework module FBObjcSugar {
+  umbrella header "FBObjcSugar-umbrella.h"
+
+  export *
+  module * { export * }
+}
