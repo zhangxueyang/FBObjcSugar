@@ -11,14 +11,11 @@
 @interface UILabel (FBObjcSugar)
 /// 实例化 UILabel
 ///
-/// @param text text
-///
 /// @return UILabel 默认字体 14，默认颜色 [UIColor darkGrayColor]，默认对齐方式 Left
 + (nonnull instancetype)fb_label;
 
 /// 实例化 UILabel
 ///
-/// @param text     text
 /// @param fontSize fontSize
 ///
 /// @return UILabel 默认颜色 [UIColor darkGrayColor]，默认对齐方式 Left
@@ -26,7 +23,6 @@
 
 /// 实例化 UILabel
 ///
-/// @param text      text
 /// @param fontSize  fontSize
 /// @param textColor textColor
 ///
@@ -36,7 +32,6 @@
 
 /// 实例化 UILabel
 ///
-/// @param text      text
 /// @param fontSize  fontSize
 /// @param textColor textColor
 /// @param alignment alignment

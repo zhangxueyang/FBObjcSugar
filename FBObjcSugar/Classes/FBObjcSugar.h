@@ -14,6 +14,9 @@
 #import "UIView+FBObjcSugar.h"
 #import "UILabel+FBObjcSugar.h"
 #import "UIButton+FBObjcSugar.h"
+#import "UIButton+FBBlockSugar.h"
+
+#import "UIGestureRecognizer+FBBlocjSugar.h"
 #import "UITextField+FBObjcSugar.h"
 
 #import "UIImage+FBObjcSugar.h"
@@ -21,6 +24,7 @@
 #import "NSDate+FBObjcSugar.h"
 #import "NSString+FBObjcSugar.h"
 #import "UINavigationController+FBObjcSugar.h"
+
 
 
 //#endif /* FBObjcSugar_h */

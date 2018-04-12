@@ -26,7 +26,7 @@
  @param completion 回调传值
  */
 - (void)fb_cornerImageWithSize:(CGSize)size
-                     fillColor:(UIColor *)fillColor
-                    completion:(void (^)(UIImage *image))completion;
+                     fillColor:(UIColor *_Nullable)fillColor
+                    completion:(void (^ _Nonnull)(UIImage * _Nonnull image))completion;
 
 @end

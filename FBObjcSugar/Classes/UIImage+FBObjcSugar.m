@@ -26,7 +26,7 @@
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
         
-        NSTimeInterval start = CACurrentMediaTime();
+//        NSTimeInterval start = CACurrentMediaTime();
         
         // 1. 利用绘图，建立上下文
         UIGraphicsBeginImageContextWithOptions(size, YES, 0);
