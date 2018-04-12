@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FBObjcSugar_Example' do
+  pod 'FBObjcSugar', :path => '../'
+
+  target 'FBObjcSugar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
