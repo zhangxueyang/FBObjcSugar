@@ -7,40 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F61267D38264F3BB8DE71911033460 /* Pods-FBObjcSugar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B28FB9C52DCF903AC9103952C505C1D5 /* Pods-FBObjcSugar_Tests-dummy.m */; };
-		0F7E856530811D926AF89C912180745F /* FBObjcSugar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7599CA1162D1CE2C2C9989459421D9 /* FBObjcSugar-dummy.m */; };
-		15E23D109E8B219E4E27038CCECB449B /* UIButton+FBBlockSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B51A2E0BF0413D9449AE91083EF1610 /* UIButton+FBBlockSugar.m */; };
-		1C46DA4F45CEF0112457A606DDDC45A6 /* UIImage+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C11B39EA50F3D38E3DB59D1962F61 /* UIImage+FBObjcSugar.m */; };
-		1D2C18780A590AC3B1F88C13E4E6AC29 /* NSDate+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = D813FC8DD98CA1129B9EB5673CCFB95C /* NSDate+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D84AADA9349DA9B85D689E82FF9E75E /* UILabel+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1F5E2D7B3145B0932882984EBE297B /* UILabel+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32863B15C21DE423BA11273551BE99E3 /* UITextField+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4D484B2AB035FFD9FFD041DB9776E /* UITextField+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D5D2F63CE7481D91DF9E2D096A7EE1A /* UILabel+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AF91409210A588C728E4A3FAC111B0 /* UILabel+FBObjcSugar.m */; };
-		416849275F7DC57A5C30E7EB90792112 /* UIView+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F5EE63CED7CEC45B9759BD2798D4E6 /* UIView+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41FFCDFA03ABBD90BD5D103A035DE2F7 /* UIView+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0A77DC8CA5B28BFE46B88615078F1 /* UIView+FBObjcSugar.m */; };
-		4797CBB4A71C1876840A34B377C23944 /* FBObjcSugar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B35BDE2BA778109F919769787359408F /* FBObjcSugar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ACE712DB57EDF50A2E144D50AF175EE /* UIGestureRecognizer+FBBlocjSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D41F433BECDB2217879DF243CB8768B /* UIGestureRecognizer+FBBlocjSugar.m */; };
-		4E9FBA269D9F49AD5100E0930987F317 /* UINavigationController+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BAC8C7EBD1CCF441269E92661CFA40 /* UINavigationController+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51935D2697543CD85151F2E2349BF210 /* Pods-FBObjcSugar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40ACA74A81F53439CCF7E2F2FDA903D5 /* Pods-FBObjcSugar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE45F507E5AAAABC73D82BAEB0CDEDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6A9B505CBEDF4C0C5408A084E44A3E41 /* NSString+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1EEBA360CE8DEA0ED0EB286BAD2D70 /* NSString+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F529DBC3C83F061D2936C16D1132262 /* NSDate+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFF244DE97C28A43BA6CC5AD6CED68 /* NSDate+FBObjcSugar.m */; };
-		70BC1B2C848418107BBF39A906A5C180 /* UIScreen+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = D78A8BBC5C7A91C8D5CE76930A2E8999 /* UIScreen+FBObjcSugar.m */; };
-		77FB2EEF3E18864344BC1E521510376E /* Pods-FBObjcSugar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F45C2AE1E4737E4AE55A0EF316ADC11F /* Pods-FBObjcSugar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF504993955A5E14A1CE47994BC3D5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8162E3848A222C2369B91C7F0ACCC4AF /* FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = D836164469FDADA64987B313546BE242 /* FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89C9568C3B54C931F2A8929C43396BA9 /* UIButton+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D008ED1A20E2445D4D4CD8C90B869C /* UIButton+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		916A153240581E84E9332B5A97191934 /* UIGestureRecognizer+FBBlocjSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F2050A64B340332ED2C018C70ADEDD /* UIGestureRecognizer+FBBlocjSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C89B1A3DB016C515FA3D68DD70A1070 /* NSString+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 513FF286310C95BFA3C29CF681AB48D1 /* NSString+FBObjcSugar.m */; };
-		A11D8FC29FA084C78571242AB551D2D5 /* UIButton+FBBlockSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFB25DAF6FFE45A828539C08CC9702A /* UIButton+FBBlockSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B159311E746EE9E2885E95543CA6F528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B27E0C76957A68C6220ABD2CF45A606C /* UIColor+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0EC234987B2DA9A1F4A4B34486A0B1 /* UIColor+FBObjcSugar.m */; };
-		BCB883811C85F9861334BE7E1B4255FC /* UIScreen+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B67196D2BB399706AF162A9AC8C2CB /* UIScreen+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C023C8C8890EDCD3A9B1113AA22972E0 /* UIColor+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B425E27B99963FDE6C4BCF79F08B1C9 /* UIColor+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF687C96277D2E0B9B853C72EDCFF52C /* UIImage+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9583F61F461D06742B078A2C1E9BC /* UIImage+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF89B81DDD265E3661C2D666CF594CAA /* UINavigationController+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69BC3225263E7D1F90A1A2EB04AC3B /* UINavigationController+FBObjcSugar.m */; };
-		DAD4E471A3248FE925454529E4AE3CAD /* UIButton+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86428741B7C71DD980214224E0DB39EA /* UIButton+FBObjcSugar.m */; };
-		F34444AF8B47D8BE0EC621F864F5664F /* UITextField+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A9B5C8C5968C1610378094C14D48C0 /* UITextField+FBObjcSugar.m */; };
-		F8701265C0766525EE35F94C42DA0E2B /* Pods-FBObjcSugar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAEB4E749A305A4733C71C705BFDB6B /* Pods-FBObjcSugar_Example-dummy.m */; };
+		145E21D85D8D5E2BA90E6ABDFF192909 /* UIButton+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C68973D7A5C26317E950EB28F91F30CF /* UIButton+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DFA355136ACB0012FB06B83788CEFE /* NSDate+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F49DD5095B2ED184F4E9BBCE243B69 /* NSDate+FBObjcSugar.m */; };
+		2AC19C77E0F284110F6B5F41CBDAD054 /* NSDate+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F27D66B9C3A382E9D3421EBEF568237 /* NSDate+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB93C378811170628D967A159200FC8 /* UITextField+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FACFDB91A78F6ED13371FB6A8FF5A7B /* UITextField+FBObjcSugar.m */; };
+		3B2D41218514C0AFCD918FF7EB49AA95 /* UILabel+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAD96D093C1CBB3B3490621EC9FC642 /* UILabel+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45F31A4AE9A1EEC224037866D8DC0E79 /* UIButton+FBBlockSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = D66B4FCB27C748E4EE90CD41A5BF8933 /* UIButton+FBBlockSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478F241D8175EC4F9F13034EF642289E /* NSObject+FBLogSuagr.m in Sources */ = {isa = PBXBuildFile; fileRef = 743F1ECA5A89F55954B40797D3643C3A /* NSObject+FBLogSuagr.m */; };
+		47B16EF8C2096E00F925BF9E8BA70A98 /* UINavigationController+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CEF8E772B0F2CA2367B261133DE510 /* UINavigationController+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4BAC80D7300281A0DE37848CAE8DD0 /* NSString+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3026F2CD3F3F813FAA87D8C5973F9F6F /* NSString+FBObjcSugar.m */; };
+		4E8EEAFB5B2BC53264CE165891C2E2A9 /* NSString+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E4781697317291C1682E5D34A5CCB2 /* NSString+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51935D2697543CD85151F2E2349BF210 /* Pods-FBObjcSugar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE8F412770BD1D60BFFBA1C2827A1E8 /* Pods-FBObjcSugar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5582ADA45D588AEF6E8BA9A4D59AE3E3 /* UIImage+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 739C0C26DD548BC1B08F9B4A264691B6 /* UIImage+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57718DD73768455F8C04BB6AF3A88BC3 /* FBObjcSugar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AE163A0143989E870221951F6374CC /* FBObjcSugar-dummy.m */; };
+		5DC7CD0D70BD723B3D9BE5D3647BA20D /* UIButton+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E24A4FA5A29D13760E1F66EBC7D0A1F /* UIButton+FBObjcSugar.m */; };
+		5DE45F507E5AAAABC73D82BAEB0CDEDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		60E8884520B7F88DC0214889BD8F04B4 /* UIColor+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F38541C4DC87CA6B7C4BCD23037F75 /* UIColor+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785BD45F4EE1C79846DA69C964627F90 /* NSObject+FBLogSuagr.h in Headers */ = {isa = PBXBuildFile; fileRef = 068EE34C58BCFFA3ED08A63C4217373D /* NSObject+FBLogSuagr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B3F984421F3881F95401A47CD4C3C5 /* FBObjcSugar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFE3229E61EEAA606792D9AA3B8B7D2 /* FBObjcSugar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E796DA0AC0BB18ED2AE17B78D0416AB /* UIView+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 445C95D39074D12B726A944B00A14D06 /* UIView+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E24A2A85AD78AE7DF4BE4190878F94 /* UIGestureRecognizer+FBBlocjSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F2CD4EB9A7BAB0A411B9E1325B82D4 /* UIGestureRecognizer+FBBlocjSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C57042A856ADA501A03A658E55CB5F /* UIImage+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EAC117075D09088977739ACD767CB6 /* UIImage+FBObjcSugar.m */; };
+		B7339666C36F45BBADBE1A0C1F29A944 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
+		BD1278F483DCC11AFEB2801585E76683 /* UIView+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA7EE54EFDE5F5FAD27D265F58F9E28 /* UIView+FBObjcSugar.m */; };
+		C248F46C8012AAA140D9C43CF1720B0C /* UIScreen+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA85CEA042D6886125ACEFF6E672E36 /* UIScreen+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C343A26E12949923250CB5B6B22A78FB /* UIColor+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABE08849D158D528A9B1D19905009FD /* UIColor+FBObjcSugar.m */; };
+		CC60598FA977EEE337A96718259DAA82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */; };
+		D178AAAB6D3C5E208F5003F95C0F5A62 /* UITextField+FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B5377BEF31F55317F39FCD79EBE18B /* UITextField+FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA6AC521B9C44628E416F05C689E9BF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */; };
+		EBB64AE6516B9CA7B2BA722B01FBA67E /* UINavigationController+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DD041561994085912EAD1DD59D7C0E /* UINavigationController+FBObjcSugar.m */; };
+		EEEAE5EB868EAC0F11324D6D7EB09E5C /* UIGestureRecognizer+FBBlocjSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD4B071411F91D27542C5DAACCBCD12 /* UIGestureRecognizer+FBBlocjSugar.m */; };
+		EFFC4DE5838A731B89BFC27A41359D2E /* UIButton+FBBlockSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D14AB158552CF99A66EC15292A29A51 /* UIButton+FBBlockSugar.m */; };
+		F4DB3FFD192790FE1EAD8B1994775920 /* FBObjcSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB5B919DF15CB6E802ACA28A3F69884 /* FBObjcSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F764541E7AB5EF9001D7E38834FAF589 /* UILabel+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D406D8444FFFB26CE02A41E098901D5 /* UILabel+FBObjcSugar.m */; };
+		F8701265C0766525EE35F94C42DA0E2B /* Pods-FBObjcSugar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1D9B7A35374346604DBC47AC82BBE7 /* Pods-FBObjcSugar_Example-dummy.m */; };
+		F90DC2372D79240F7164F2EADC5BA10E /* UIScreen+FBObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29902B4471F10614BB35557907592A57 /* UIScreen+FBObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,84 +49,74 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 21430B7F3E3FCA9D733D8EBDD54F1D7B;
+			remoteGlobalIDString = BC09B226C5D5DFA427D8B46412D8A9AA;
 			remoteInfo = FBObjcSugar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		046E4ADE2C4166AB47C2A5CBFADDCC62 /* Pods_FBObjcSugar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBObjcSugar_Tests.framework; path = "Pods-FBObjcSugar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B51A2E0BF0413D9449AE91083EF1610 /* UIButton+FBBlockSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FBBlockSugar.m"; path = "FBObjcSugar/Classes/UIButton+FBBlockSugar.m"; sourceTree = "<group>"; };
-		0C9C888225FDF1AEA585D36786A091FA /* Pods-FBObjcSugar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FBObjcSugar_Example.modulemap"; sourceTree = "<group>"; };
-		0D9F29C2AB8D882FA0643186ECAA1762 /* Pods-FBObjcSugar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0F7599CA1162D1CE2C2C9989459421D9 /* FBObjcSugar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBObjcSugar-dummy.m"; sourceTree = "<group>"; };
-		0FFD497973BD49543AF3F67F6EE07D7A /* Pods-FBObjcSugar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBObjcSugar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		165E2B92046BA9BE3124221DD4E6314F /* FBObjcSugar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBObjcSugar.modulemap; sourceTree = "<group>"; };
-		1FF0A77DC8CA5B28BFE46B88615078F1 /* UIView+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UIView+FBObjcSugar.m"; sourceTree = "<group>"; };
-		2128289A227E28EF0E527CFA454678B9 /* Pods-FBObjcSugar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		25BAC8C7EBD1CCF441269E92661CFA40 /* UINavigationController+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UINavigationController+FBObjcSugar.h"; sourceTree = "<group>"; };
-		2D41F433BECDB2217879DF243CB8768B /* UIGestureRecognizer+FBBlocjSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+FBBlocjSugar.m"; path = "FBObjcSugar/Classes/UIGestureRecognizer+FBBlocjSugar.m"; sourceTree = "<group>"; };
-		2DD2FFB495FCDA34B3869D272FDFC04D /* Pods-FBObjcSugar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBObjcSugar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3794EEEE4481E130B1ED84BEE48DAB8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C529112BF270DC64590E8DBBDE614BB /* Pods-FBObjcSugar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		40ACA74A81F53439CCF7E2F2FDA903D5 /* Pods-FBObjcSugar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBObjcSugar_Example-umbrella.h"; sourceTree = "<group>"; };
-		4867F202B4B7B2B6DED4D3683EF6915A /* Pods-FBObjcSugar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Example-resources.sh"; sourceTree = "<group>"; };
-		513FF286310C95BFA3C29CF681AB48D1 /* NSString+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FBObjcSugar.m"; path = "FBObjcSugar/Classes/NSString+FBObjcSugar.m"; sourceTree = "<group>"; };
-		5C1EEBA360CE8DEA0ED0EB286BAD2D70 /* NSString+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FBObjcSugar.h"; path = "FBObjcSugar/Classes/NSString+FBObjcSugar.h"; sourceTree = "<group>"; };
-		63AF91409210A588C728E4A3FAC111B0 /* UILabel+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UILabel+FBObjcSugar.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66D008ED1A20E2445D4D4CD8C90B869C /* UIButton+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UIButton+FBObjcSugar.h"; sourceTree = "<group>"; };
-		7B425E27B99963FDE6C4BCF79F08B1C9 /* UIColor+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UIColor+FBObjcSugar.h"; sourceTree = "<group>"; };
-		7D69BC3225263E7D1F90A1A2EB04AC3B /* UINavigationController+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UINavigationController+FBObjcSugar.m"; sourceTree = "<group>"; };
-		86428741B7C71DD980214224E0DB39EA /* UIButton+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UIButton+FBObjcSugar.m"; sourceTree = "<group>"; };
+		068EE34C58BCFFA3ED08A63C4217373D /* NSObject+FBLogSuagr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBLogSuagr.h"; path = "FBObjcSugar/Classes/FBJsonlog/NSObject+FBLogSuagr.h"; sourceTree = "<group>"; };
+		16DD041561994085912EAD1DD59D7C0E /* UINavigationController+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UINavigationController+FBObjcSugar.m"; sourceTree = "<group>"; };
+		1A3931B7CD3C334D34C78B519D3CAA9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2536031930C55060CBD57238F108E9E8 /* Pods-FBObjcSugar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBObjcSugar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29902B4471F10614BB35557907592A57 /* UIScreen+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIScreen+FBObjcSugar.m"; sourceTree = "<group>"; };
+		2D6EF811E2855CDEB3C18087AFE8EF3B /* Pods-FBObjcSugar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F27D66B9C3A382E9D3421EBEF568237 /* NSDate+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/NSDate+FBObjcSugar.h"; sourceTree = "<group>"; };
+		3026F2CD3F3F813FAA87D8C5973F9F6F /* NSString+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/NSString+FBObjcSugar.m"; sourceTree = "<group>"; };
+		3AD4B071411F91D27542C5DAACCBCD12 /* UIGestureRecognizer+FBBlocjSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+FBBlocjSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIGestureRecognizer+FBBlocjSugar.m"; sourceTree = "<group>"; };
+		3DAD96D093C1CBB3B3490621EC9FC642 /* UILabel+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UILabel+FBObjcSugar.h"; sourceTree = "<group>"; };
+		445C95D39074D12B726A944B00A14D06 /* UIView+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UIView+FBObjcSugar.h"; sourceTree = "<group>"; };
+		47AE8305D6700958B9BF586595233128 /* Pods-FBObjcSugar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBObjcSugar_Example.modulemap"; sourceTree = "<group>"; };
+		4ABE08849D158D528A9B1D19905009FD /* UIColor+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIColor+FBObjcSugar.m"; sourceTree = "<group>"; };
+		4B86DC7ACA0C9033B976703563B5DD33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E1D9B7A35374346604DBC47AC82BBE7 /* Pods-FBObjcSugar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBObjcSugar_Example-dummy.m"; sourceTree = "<group>"; };
+		4E24A4FA5A29D13760E1F66EBC7D0A1F /* UIButton+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UIButton+FBObjcSugar.m"; sourceTree = "<group>"; };
+		5D247EC1510E90CB06386F226F00D536 /* Pods_FBObjcSugar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBObjcSugar_Example.framework; path = "Pods-FBObjcSugar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F2CD4EB9A7BAB0A411B9E1325B82D4 /* UIGestureRecognizer+FBBlocjSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+FBBlocjSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIGestureRecognizer+FBBlocjSugar.h"; sourceTree = "<group>"; };
+		69AE163A0143989E870221951F6374CC /* FBObjcSugar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBObjcSugar-dummy.m"; sourceTree = "<group>"; };
+		69F38541C4DC87CA6B7C4BCD23037F75 /* UIColor+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIColor+FBObjcSugar.h"; sourceTree = "<group>"; };
+		6D406D8444FFFB26CE02A41E098901D5 /* UILabel+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UILabel+FBObjcSugar.m"; sourceTree = "<group>"; };
+		70CF6080D6932B1AB555D5B280315C65 /* FBObjcSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBObjcSugar.framework; path = FBObjcSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		739C0C26DD548BC1B08F9B4A264691B6 /* UIImage+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIImage+FBObjcSugar.h"; sourceTree = "<group>"; };
+		743F1ECA5A89F55954B40797D3643C3A /* NSObject+FBLogSuagr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBLogSuagr.m"; path = "FBObjcSugar/Classes/FBJsonlog/NSObject+FBLogSuagr.m"; sourceTree = "<group>"; };
+		7BA7EE54EFDE5F5FAD27D265F58F9E28 /* UIView+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UIView+FBObjcSugar.m"; sourceTree = "<group>"; };
+		7D14AB158552CF99A66EC15292A29A51 /* UIButton+FBBlockSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+FBBlockSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UIButton+FBBlockSugar.m"; sourceTree = "<group>"; };
+		7FA85CEA042D6886125ACEFF6E672E36 /* UIScreen+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIScreen+FBObjcSugar.h"; sourceTree = "<group>"; };
+		82DFA5D0BD6BF4BE5B87EACA8E7FB567 /* Pods-FBObjcSugar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBObjcSugar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		85E4781697317291C1682E5D34A5CCB2 /* NSString+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickFoundation/NSString+FBObjcSugar.h"; sourceTree = "<group>"; };
+		86EAC117075D09088977739ACD767CB6 /* UIImage+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/UIImage+FBObjcSugar.m"; sourceTree = "<group>"; };
+		88F6F3ED6A404862A4658B43795C0A21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8EFE3229E61EEAA606792D9AA3B8B7D2 /* FBObjcSugar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcSugar-umbrella.h"; sourceTree = "<group>"; };
+		8FACFDB91A78F6ED13371FB6A8FF5A7B /* UITextField+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickUI/UITextField+FBObjcSugar.m"; sourceTree = "<group>"; };
+		917CB6F00163AD9A73C74518D87D6131 /* FBObjcSugar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FBObjcSugar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96F5EE63CED7CEC45B9759BD2798D4E6 /* UIView+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UIView+FBObjcSugar.h"; sourceTree = "<group>"; };
-		97A9B5C8C5968C1610378094C14D48C0 /* UITextField+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UITextField+FBObjcSugar.m"; sourceTree = "<group>"; };
-		9BFB25DAF6FFE45A828539C08CC9702A /* UIButton+FBBlockSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FBBlockSugar.h"; path = "FBObjcSugar/Classes/UIButton+FBBlockSugar.h"; sourceTree = "<group>"; };
-		A484AD1E9E67DA1BCD43AC4869EF2856 /* Pods-FBObjcSugar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBObjcSugar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A5E1928DA56478AE298C7BFBCB683405 /* FBObjcSugar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcSugar-prefix.pch"; sourceTree = "<group>"; };
-		A6B67196D2BB399706AF162A9AC8C2CB /* UIScreen+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UIScreen+FBObjcSugar.h"; sourceTree = "<group>"; };
-		A87BC95A3BCF489E4A8787EA1E0E9D3C /* FBObjcSugar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBObjcSugar.xcconfig; sourceTree = "<group>"; };
-		A90234169B3882127259DCF19AFD7621 /* Pods-FBObjcSugar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Tests-resources.sh"; sourceTree = "<group>"; };
-		B28FB9C52DCF903AC9103952C505C1D5 /* Pods-FBObjcSugar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBObjcSugar_Tests-dummy.m"; sourceTree = "<group>"; };
-		B35BDE2BA778109F919769787359408F /* FBObjcSugar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcSugar-umbrella.h"; sourceTree = "<group>"; };
-		B3B2DD731E4E8EC1D9E04996A9CD6D6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B409536244B6A03F2ACECA280CDF3BBE /* Pods-FBObjcSugar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4CD84D45ED301016C18A5EDD649F023 /* FBObjcSugar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBObjcSugar.framework; path = FBObjcSugar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B75C11B39EA50F3D38E3DB59D1962F61 /* UIImage+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UIImage+FBObjcSugar.m"; sourceTree = "<group>"; };
-		B8EA52D3B971AEA568560D103EF110AB /* Pods-FBObjcSugar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBObjcSugar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0A4D484B2AB035FFD9FFD041DB9776E /* UITextField+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UITextField+FBObjcSugar.h"; sourceTree = "<group>"; };
-		D67F9A1C01A7265B722C8F6DC89907DF /* Pods-FBObjcSugar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D78A8BBC5C7A91C8D5CE76930A2E8999 /* UIScreen+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UIScreen+FBObjcSugar.m"; sourceTree = "<group>"; };
-		D813FC8DD98CA1129B9EB5673CCFB95C /* NSDate+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+FBObjcSugar.h"; path = "FBObjcSugar/Classes/NSDate+FBObjcSugar.h"; sourceTree = "<group>"; };
-		D836164469FDADA64987B313546BE242 /* FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjcSugar.h; path = FBObjcSugar/Classes/FBObjcSugar.h; sourceTree = "<group>"; };
-		D9159B4BD54E29B57A32C952227AED0B /* Pods-FBObjcSugar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA0EC234987B2DA9A1F4A4B34486A0B1 /* UIColor+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FBObjcSugar.m"; path = "FBObjcSugar/Classes/UIColor+FBObjcSugar.m"; sourceTree = "<group>"; };
-		DD1630F60DBAF10AFBE1EE44F5BB58C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9CFF244DE97C28A43BA6CC5AD6CED68 /* NSDate+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FBObjcSugar.m"; path = "FBObjcSugar/Classes/NSDate+FBObjcSugar.m"; sourceTree = "<group>"; };
-		E9D9583F61F461D06742B078A2C1E9BC /* UIImage+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UIImage+FBObjcSugar.h"; sourceTree = "<group>"; };
-		EBEBF22A80F194438A42C44F8C8B498B /* Pods_FBObjcSugar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBObjcSugar_Example.framework; path = "Pods-FBObjcSugar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF1F5E2D7B3145B0932882984EBE297B /* UILabel+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FBObjcSugar.h"; path = "FBObjcSugar/Classes/UILabel+FBObjcSugar.h"; sourceTree = "<group>"; };
-		EFAEB4E749A305A4733C71C705BFDB6B /* Pods-FBObjcSugar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBObjcSugar_Example-dummy.m"; sourceTree = "<group>"; };
-		F3F2050A64B340332ED2C018C70ADEDD /* UIGestureRecognizer+FBBlocjSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+FBBlocjSugar.h"; path = "FBObjcSugar/Classes/UIGestureRecognizer+FBBlocjSugar.h"; sourceTree = "<group>"; };
-		F45C2AE1E4737E4AE55A0EF316ADC11F /* Pods-FBObjcSugar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBObjcSugar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FE1CFB959C2CADDCC03242922A26AFE2 /* Pods-FBObjcSugar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FBObjcSugar_Tests.modulemap"; sourceTree = "<group>"; };
+		99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		99CEF8E772B0F2CA2367B261133DE510 /* UINavigationController+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UINavigationController+FBObjcSugar.h"; sourceTree = "<group>"; };
+		A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7C1D251DCFCD64DF97719EDB45A0D79 /* Pods-FBObjcSugar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BD8C4D8F66D32D97A191A9E3B094775B /* Pods-FBObjcSugar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBObjcSugar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1F49DD5095B2ED184F4E9BBCE243B69 /* NSDate+FBObjcSugar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+FBObjcSugar.m"; path = "FBObjcSugar/Classes/FBQuickFoundation/NSDate+FBObjcSugar.m"; sourceTree = "<group>"; };
+		C68973D7A5C26317E950EB28F91F30CF /* UIButton+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UIButton+FBObjcSugar.h"; sourceTree = "<group>"; };
+		C7B5377BEF31F55317F39FCD79EBE18B /* UITextField+FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+FBObjcSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UITextField+FBObjcSugar.h"; sourceTree = "<group>"; };
+		CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D66B4FCB27C748E4EE90CD41A5BF8933 /* UIButton+FBBlockSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+FBBlockSugar.h"; path = "FBObjcSugar/Classes/FBQuickUI/UIButton+FBBlockSugar.h"; sourceTree = "<group>"; };
+		D7ADB12DCEA8C1DA6B79659E56774DB1 /* Pods-FBObjcSugar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBObjcSugar_Example-resources.sh"; sourceTree = "<group>"; };
+		DBE8F412770BD1D60BFFBA1C2827A1E8 /* Pods-FBObjcSugar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBObjcSugar_Example-umbrella.h"; sourceTree = "<group>"; };
+		DDB5B919DF15CB6E802ACA28A3F69884 /* FBObjcSugar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBObjcSugar.h; path = FBObjcSugar/Classes/FBObjcSugar.h; sourceTree = "<group>"; };
+		EFFAAC3DDC5202B0F797464EFBB98575 /* FBObjcSugar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBObjcSugar.modulemap; sourceTree = "<group>"; };
+		F2B954DAA97C6D1381A0FB3E45C19780 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2F0A97AF453C3E5FB5B15F7C4CF5E37 /* FBObjcSugar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBObjcSugar.xcconfig; sourceTree = "<group>"; };
+		F7A184C027B305A307896BE7FDD22D56 /* FBObjcSugar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBObjcSugar-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8C0D1152A41FDE6FAFB58F0C42B43CCA /* Frameworks */ = {
+		059ECF33D5955EF19B1F316686C6FAFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF504993955A5E14A1CE47994BC3D5B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B06B1F9D55E526091C297BD24821DBA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B159311E746EE9E2885E95543CA6F528 /* Foundation.framework in Frameworks */,
+				DA6AC521B9C44628E416F05C689E9BF6 /* CoreGraphics.framework in Frameworks */,
+				B7339666C36F45BBADBE1A0C1F29A944 /* Foundation.framework in Frameworks */,
+				CC60598FA977EEE337A96718259DAA82 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,142 +131,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E9D9B176CAE649757A6195FEC88C3C0 /* Products */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4CD84D45ED301016C18A5EDD649F023 /* FBObjcSugar.framework */,
-				EBEBF22A80F194438A42C44F8C8B498B /* Pods_FBObjcSugar_Example.framework */,
-				046E4ADE2C4166AB47C2A5CBFADDCC62 /* Pods_FBObjcSugar_Tests.framework */,
+				93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		54CB09EDDF9CE88DEAE6D1A8CB0A3730 /* Targets Support Files */ = {
+		14C9011A89FDF4A2F57BD1A734A7533A /* FBObjcSugar */ = {
 			isa = PBXGroup;
 			children = (
-				F95A778D397ACD63A66873BBA2BFE9F2 /* Pods-FBObjcSugar_Example */,
-				55E3D2E2353526AE0C2D4B99A5344268 /* Pods-FBObjcSugar_Tests */,
+				DDB5B919DF15CB6E802ACA28A3F69884 /* FBObjcSugar.h */,
+				8391FFE236FDC6C72F1A25C0FB157FCF /* FBJsonlog */,
+				4B14F9D8D70F6CA6DE09112A9CDFEE39 /* FBQuickFoundation */,
+				A2588DEE62F0A62988DDD561CDB46B1D /* FBQuickUI */,
+				C31E1994C0AD457934AAC6FB028FF2C6 /* Pod */,
+				C3F774206BB7B5B3E314999F67281D4C /* Support Files */,
+			);
+			name = FBObjcSugar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4036C9AE5FD8A88F6B81DD9D7E6FA6B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF92B95225BB7490909AD8D6AD0CD376 /* Pods-FBObjcSugar_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		55E3D2E2353526AE0C2D4B99A5344268 /* Pods-FBObjcSugar_Tests */ = {
+		4B14F9D8D70F6CA6DE09112A9CDFEE39 /* FBQuickFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				3794EEEE4481E130B1ED84BEE48DAB8E /* Info.plist */,
-				FE1CFB959C2CADDCC03242922A26AFE2 /* Pods-FBObjcSugar_Tests.modulemap */,
-				B8EA52D3B971AEA568560D103EF110AB /* Pods-FBObjcSugar_Tests-acknowledgements.markdown */,
-				2DD2FFB495FCDA34B3869D272FDFC04D /* Pods-FBObjcSugar_Tests-acknowledgements.plist */,
-				B28FB9C52DCF903AC9103952C505C1D5 /* Pods-FBObjcSugar_Tests-dummy.m */,
-				D67F9A1C01A7265B722C8F6DC89907DF /* Pods-FBObjcSugar_Tests-frameworks.sh */,
-				A90234169B3882127259DCF19AFD7621 /* Pods-FBObjcSugar_Tests-resources.sh */,
-				F45C2AE1E4737E4AE55A0EF316ADC11F /* Pods-FBObjcSugar_Tests-umbrella.h */,
-				D9159B4BD54E29B57A32C952227AED0B /* Pods-FBObjcSugar_Tests.debug.xcconfig */,
-				B409536244B6A03F2ACECA280CDF3BBE /* Pods-FBObjcSugar_Tests.release.xcconfig */,
+				2F27D66B9C3A382E9D3421EBEF568237 /* NSDate+FBObjcSugar.h */,
+				C1F49DD5095B2ED184F4E9BBCE243B69 /* NSDate+FBObjcSugar.m */,
+				85E4781697317291C1682E5D34A5CCB2 /* NSString+FBObjcSugar.h */,
+				3026F2CD3F3F813FAA87D8C5973F9F6F /* NSString+FBObjcSugar.m */,
+				69F38541C4DC87CA6B7C4BCD23037F75 /* UIColor+FBObjcSugar.h */,
+				4ABE08849D158D528A9B1D19905009FD /* UIColor+FBObjcSugar.m */,
+				68F2CD4EB9A7BAB0A411B9E1325B82D4 /* UIGestureRecognizer+FBBlocjSugar.h */,
+				3AD4B071411F91D27542C5DAACCBCD12 /* UIGestureRecognizer+FBBlocjSugar.m */,
+				739C0C26DD548BC1B08F9B4A264691B6 /* UIImage+FBObjcSugar.h */,
+				86EAC117075D09088977739ACD767CB6 /* UIImage+FBObjcSugar.m */,
+				7FA85CEA042D6886125ACEFF6E672E36 /* UIScreen+FBObjcSugar.h */,
+				29902B4471F10614BB35557907592A57 /* UIScreen+FBObjcSugar.m */,
 			);
-			name = "Pods-FBObjcSugar_Tests";
-			path = "Target Support Files/Pods-FBObjcSugar_Tests";
+			name = FBQuickFoundation;
+			sourceTree = "<group>";
+		};
+		5A6CBBE6AAE453866FC906A3408E0275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70CF6080D6932B1AB555D5B280315C65 /* FBObjcSugar.framework */,
+				5D247EC1510E90CB06386F226F00D536 /* Pods_FBObjcSugar_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B65EE7DB81A571EAC7D2FB3ED63A848 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14C9011A89FDF4A2F57BD1A734A7533A /* FBObjcSugar */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F37E942AD5B1DF3093F2DF16FF8E4403 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4E9D9B176CAE649757A6195FEC88C3C0 /* Products */,
-				54CB09EDDF9CE88DEAE6D1A8CB0A3730 /* Targets Support Files */,
+				7B65EE7DB81A571EAC7D2FB3ED63A848 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5A6CBBE6AAE453866FC906A3408E0275 /* Products */,
+				4036C9AE5FD8A88F6B81DD9D7E6FA6B9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80ED4439F642F9C5E0BA3FDD32FC6BF0 /* Support Files */ = {
+		8391FFE236FDC6C72F1A25C0FB157FCF /* FBJsonlog */ = {
 			isa = PBXGroup;
 			children = (
-				165E2B92046BA9BE3124221DD4E6314F /* FBObjcSugar.modulemap */,
-				A87BC95A3BCF489E4A8787EA1E0E9D3C /* FBObjcSugar.xcconfig */,
-				0F7599CA1162D1CE2C2C9989459421D9 /* FBObjcSugar-dummy.m */,
-				A5E1928DA56478AE298C7BFBCB683405 /* FBObjcSugar-prefix.pch */,
-				B35BDE2BA778109F919769787359408F /* FBObjcSugar-umbrella.h */,
-				DD1630F60DBAF10AFBE1EE44F5BB58C7 /* Info.plist */,
+				068EE34C58BCFFA3ED08A63C4217373D /* NSObject+FBLogSuagr.h */,
+				743F1ECA5A89F55954B40797D3643C3A /* NSObject+FBLogSuagr.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FBObjcSugar";
+			name = FBJsonlog;
 			sourceTree = "<group>";
 		};
-		A653EC19C6F45A62AC8D2D69959BA21F /* FBObjcSugar */ = {
+		93FD095B5FC2A2BCC81B8E3CFC167E67 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D836164469FDADA64987B313546BE242 /* FBObjcSugar.h */,
-				D813FC8DD98CA1129B9EB5673CCFB95C /* NSDate+FBObjcSugar.h */,
-				E9CFF244DE97C28A43BA6CC5AD6CED68 /* NSDate+FBObjcSugar.m */,
-				5C1EEBA360CE8DEA0ED0EB286BAD2D70 /* NSString+FBObjcSugar.h */,
-				513FF286310C95BFA3C29CF681AB48D1 /* NSString+FBObjcSugar.m */,
-				9BFB25DAF6FFE45A828539C08CC9702A /* UIButton+FBBlockSugar.h */,
-				0B51A2E0BF0413D9449AE91083EF1610 /* UIButton+FBBlockSugar.m */,
-				66D008ED1A20E2445D4D4CD8C90B869C /* UIButton+FBObjcSugar.h */,
-				86428741B7C71DD980214224E0DB39EA /* UIButton+FBObjcSugar.m */,
-				7B425E27B99963FDE6C4BCF79F08B1C9 /* UIColor+FBObjcSugar.h */,
-				DA0EC234987B2DA9A1F4A4B34486A0B1 /* UIColor+FBObjcSugar.m */,
-				F3F2050A64B340332ED2C018C70ADEDD /* UIGestureRecognizer+FBBlocjSugar.h */,
-				2D41F433BECDB2217879DF243CB8768B /* UIGestureRecognizer+FBBlocjSugar.m */,
-				E9D9583F61F461D06742B078A2C1E9BC /* UIImage+FBObjcSugar.h */,
-				B75C11B39EA50F3D38E3DB59D1962F61 /* UIImage+FBObjcSugar.m */,
-				EF1F5E2D7B3145B0932882984EBE297B /* UILabel+FBObjcSugar.h */,
-				63AF91409210A588C728E4A3FAC111B0 /* UILabel+FBObjcSugar.m */,
-				25BAC8C7EBD1CCF441269E92661CFA40 /* UINavigationController+FBObjcSugar.h */,
-				7D69BC3225263E7D1F90A1A2EB04AC3B /* UINavigationController+FBObjcSugar.m */,
-				A6B67196D2BB399706AF162A9AC8C2CB /* UIScreen+FBObjcSugar.h */,
-				D78A8BBC5C7A91C8D5CE76930A2E8999 /* UIScreen+FBObjcSugar.m */,
-				D0A4D484B2AB035FFD9FFD041DB9776E /* UITextField+FBObjcSugar.h */,
-				97A9B5C8C5968C1610378094C14D48C0 /* UITextField+FBObjcSugar.m */,
-				96F5EE63CED7CEC45B9759BD2798D4E6 /* UIView+FBObjcSugar.h */,
-				1FF0A77DC8CA5B28BFE46B88615078F1 /* UIView+FBObjcSugar.m */,
-				80ED4439F642F9C5E0BA3FDD32FC6BF0 /* Support Files */,
-			);
-			name = FBObjcSugar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				99C06B1B209CA23EC16EBF65CF890313 /* CoreGraphics.framework */,
+				CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */,
+				A5224A726D9EABB2D5F18E4597390EF3 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F37E942AD5B1DF3093F2DF16FF8E4403 /* Development Pods */ = {
+		A2588DEE62F0A62988DDD561CDB46B1D /* FBQuickUI */ = {
 			isa = PBXGroup;
 			children = (
-				A653EC19C6F45A62AC8D2D69959BA21F /* FBObjcSugar */,
+				D66B4FCB27C748E4EE90CD41A5BF8933 /* UIButton+FBBlockSugar.h */,
+				7D14AB158552CF99A66EC15292A29A51 /* UIButton+FBBlockSugar.m */,
+				C68973D7A5C26317E950EB28F91F30CF /* UIButton+FBObjcSugar.h */,
+				4E24A4FA5A29D13760E1F66EBC7D0A1F /* UIButton+FBObjcSugar.m */,
+				3DAD96D093C1CBB3B3490621EC9FC642 /* UILabel+FBObjcSugar.h */,
+				6D406D8444FFFB26CE02A41E098901D5 /* UILabel+FBObjcSugar.m */,
+				99CEF8E772B0F2CA2367B261133DE510 /* UINavigationController+FBObjcSugar.h */,
+				16DD041561994085912EAD1DD59D7C0E /* UINavigationController+FBObjcSugar.m */,
+				C7B5377BEF31F55317F39FCD79EBE18B /* UITextField+FBObjcSugar.h */,
+				8FACFDB91A78F6ED13371FB6A8FF5A7B /* UITextField+FBObjcSugar.m */,
+				445C95D39074D12B726A944B00A14D06 /* UIView+FBObjcSugar.h */,
+				7BA7EE54EFDE5F5FAD27D265F58F9E28 /* UIView+FBObjcSugar.m */,
 			);
-			name = "Development Pods";
+			name = FBQuickUI;
 			sourceTree = "<group>";
 		};
-		F95A778D397ACD63A66873BBA2BFE9F2 /* Pods-FBObjcSugar_Example */ = {
+		BF92B95225BB7490909AD8D6AD0CD376 /* Pods-FBObjcSugar_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B3B2DD731E4E8EC1D9E04996A9CD6D6C /* Info.plist */,
-				0C9C888225FDF1AEA585D36786A091FA /* Pods-FBObjcSugar_Example.modulemap */,
-				A484AD1E9E67DA1BCD43AC4869EF2856 /* Pods-FBObjcSugar_Example-acknowledgements.markdown */,
-				0FFD497973BD49543AF3F67F6EE07D7A /* Pods-FBObjcSugar_Example-acknowledgements.plist */,
-				EFAEB4E749A305A4733C71C705BFDB6B /* Pods-FBObjcSugar_Example-dummy.m */,
-				2128289A227E28EF0E527CFA454678B9 /* Pods-FBObjcSugar_Example-frameworks.sh */,
-				4867F202B4B7B2B6DED4D3683EF6915A /* Pods-FBObjcSugar_Example-resources.sh */,
-				40ACA74A81F53439CCF7E2F2FDA903D5 /* Pods-FBObjcSugar_Example-umbrella.h */,
-				3C529112BF270DC64590E8DBBDE614BB /* Pods-FBObjcSugar_Example.debug.xcconfig */,
-				0D9F29C2AB8D882FA0643186ECAA1762 /* Pods-FBObjcSugar_Example.release.xcconfig */,
+				1A3931B7CD3C334D34C78B519D3CAA9D /* Info.plist */,
+				47AE8305D6700958B9BF586595233128 /* Pods-FBObjcSugar_Example.modulemap */,
+				2536031930C55060CBD57238F108E9E8 /* Pods-FBObjcSugar_Example-acknowledgements.markdown */,
+				82DFA5D0BD6BF4BE5B87EACA8E7FB567 /* Pods-FBObjcSugar_Example-acknowledgements.plist */,
+				4E1D9B7A35374346604DBC47AC82BBE7 /* Pods-FBObjcSugar_Example-dummy.m */,
+				B7C1D251DCFCD64DF97719EDB45A0D79 /* Pods-FBObjcSugar_Example-frameworks.sh */,
+				D7ADB12DCEA8C1DA6B79659E56774DB1 /* Pods-FBObjcSugar_Example-resources.sh */,
+				DBE8F412770BD1D60BFFBA1C2827A1E8 /* Pods-FBObjcSugar_Example-umbrella.h */,
+				BD8C4D8F66D32D97A191A9E3B094775B /* Pods-FBObjcSugar_Example.debug.xcconfig */,
+				2D6EF811E2855CDEB3C18087AFE8EF3B /* Pods-FBObjcSugar_Example.release.xcconfig */,
 			);
 			name = "Pods-FBObjcSugar_Example";
 			path = "Target Support Files/Pods-FBObjcSugar_Example";
+			sourceTree = "<group>";
+		};
+		C31E1994C0AD457934AAC6FB028FF2C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				917CB6F00163AD9A73C74518D87D6131 /* FBObjcSugar.podspec */,
+				88F6F3ED6A404862A4658B43795C0A21 /* LICENSE */,
+				4B86DC7ACA0C9033B976703563B5DD33 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C3F774206BB7B5B3E314999F67281D4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFAAC3DDC5202B0F797464EFBB98575 /* FBObjcSugar.modulemap */,
+				F2F0A97AF453C3E5FB5B15F7C4CF5E37 /* FBObjcSugar.xcconfig */,
+				69AE163A0143989E870221951F6374CC /* FBObjcSugar-dummy.m */,
+				F7A184C027B305A307896BE7FDD22D56 /* FBObjcSugar-prefix.pch */,
+				8EFE3229E61EEAA606792D9AA3B8B7D2 /* FBObjcSugar-umbrella.h */,
+				F2B954DAA97C6D1381A0FB3E45C19780 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FBObjcSugar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,72 +299,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47E43FD6F93D0B7D3592FECBFFC11686 /* Headers */ = {
+		674C96AC70E75012478E654BDA44F142 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FB2EEF3E18864344BC1E521510376E /* Pods-FBObjcSugar_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7611ABF452CFBDBF5556725A7B8912C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4797CBB4A71C1876840A34B377C23944 /* FBObjcSugar-umbrella.h in Headers */,
-				8162E3848A222C2369B91C7F0ACCC4AF /* FBObjcSugar.h in Headers */,
-				1D2C18780A590AC3B1F88C13E4E6AC29 /* NSDate+FBObjcSugar.h in Headers */,
-				6A9B505CBEDF4C0C5408A084E44A3E41 /* NSString+FBObjcSugar.h in Headers */,
-				A11D8FC29FA084C78571242AB551D2D5 /* UIButton+FBBlockSugar.h in Headers */,
-				89C9568C3B54C931F2A8929C43396BA9 /* UIButton+FBObjcSugar.h in Headers */,
-				C023C8C8890EDCD3A9B1113AA22972E0 /* UIColor+FBObjcSugar.h in Headers */,
-				916A153240581E84E9332B5A97191934 /* UIGestureRecognizer+FBBlocjSugar.h in Headers */,
-				CF687C96277D2E0B9B853C72EDCFF52C /* UIImage+FBObjcSugar.h in Headers */,
-				1D84AADA9349DA9B85D689E82FF9E75E /* UILabel+FBObjcSugar.h in Headers */,
-				4E9FBA269D9F49AD5100E0930987F317 /* UINavigationController+FBObjcSugar.h in Headers */,
-				BCB883811C85F9861334BE7E1B4255FC /* UIScreen+FBObjcSugar.h in Headers */,
-				32863B15C21DE423BA11273551BE99E3 /* UITextField+FBObjcSugar.h in Headers */,
-				416849275F7DC57A5C30E7EB90792112 /* UIView+FBObjcSugar.h in Headers */,
+				78B3F984421F3881F95401A47CD4C3C5 /* FBObjcSugar-umbrella.h in Headers */,
+				F4DB3FFD192790FE1EAD8B1994775920 /* FBObjcSugar.h in Headers */,
+				2AC19C77E0F284110F6B5F41CBDAD054 /* NSDate+FBObjcSugar.h in Headers */,
+				785BD45F4EE1C79846DA69C964627F90 /* NSObject+FBLogSuagr.h in Headers */,
+				4E8EEAFB5B2BC53264CE165891C2E2A9 /* NSString+FBObjcSugar.h in Headers */,
+				45F31A4AE9A1EEC224037866D8DC0E79 /* UIButton+FBBlockSugar.h in Headers */,
+				145E21D85D8D5E2BA90E6ABDFF192909 /* UIButton+FBObjcSugar.h in Headers */,
+				60E8884520B7F88DC0214889BD8F04B4 /* UIColor+FBObjcSugar.h in Headers */,
+				95E24A2A85AD78AE7DF4BE4190878F94 /* UIGestureRecognizer+FBBlocjSugar.h in Headers */,
+				5582ADA45D588AEF6E8BA9A4D59AE3E3 /* UIImage+FBObjcSugar.h in Headers */,
+				3B2D41218514C0AFCD918FF7EB49AA95 /* UILabel+FBObjcSugar.h in Headers */,
+				47B16EF8C2096E00F925BF9E8BA70A98 /* UINavigationController+FBObjcSugar.h in Headers */,
+				C248F46C8012AAA140D9C43CF1720B0C /* UIScreen+FBObjcSugar.h in Headers */,
+				D178AAAB6D3C5E208F5003F95C0F5A62 /* UITextField+FBObjcSugar.h in Headers */,
+				8E796DA0AC0BB18ED2AE17B78D0416AB /* UIView+FBObjcSugar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21430B7F3E3FCA9D733D8EBDD54F1D7B /* FBObjcSugar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1221469CCE1BA1175D5B711B3EAD412B /* Build configuration list for PBXNativeTarget "FBObjcSugar" */;
-			buildPhases = (
-				1FF3C00C8FD411D8D7BD1D3EEE7830BB /* Sources */,
-				8C0D1152A41FDE6FAFB58F0C42B43CCA /* Frameworks */,
-				A7611ABF452CFBDBF5556725A7B8912C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBObjcSugar;
-			productName = FBObjcSugar;
-			productReference = B4CD84D45ED301016C18A5EDD649F023 /* FBObjcSugar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		50D977615690E7AF653B70867E2E5430 /* Pods-FBObjcSugar_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 30BAD92C77B202C3D5EB8395104CE0BD /* Build configuration list for PBXNativeTarget "Pods-FBObjcSugar_Tests" */;
-			buildPhases = (
-				6077A58EA01D885C23345E310691D9D2 /* Sources */,
-				B06B1F9D55E526091C297BD24821DBA8 /* Frameworks */,
-				47E43FD6F93D0B7D3592FECBFFC11686 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-FBObjcSugar_Tests";
-			productName = "Pods-FBObjcSugar_Tests";
-			productReference = 046E4ADE2C4166AB47C2A5CBFADDCC62 /* Pods_FBObjcSugar_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		80FB7725C71F0086E84007A1E76E4317 /* Pods-FBObjcSugar_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59B2CE55A4885627834D8D29CB2A5861 /* Build configuration list for PBXNativeTarget "Pods-FBObjcSugar_Example" */;
@@ -370,7 +339,24 @@
 			);
 			name = "Pods-FBObjcSugar_Example";
 			productName = "Pods-FBObjcSugar_Example";
-			productReference = EBEBF22A80F194438A42C44F8C8B498B /* Pods_FBObjcSugar_Example.framework */;
+			productReference = 5D247EC1510E90CB06386F226F00D536 /* Pods_FBObjcSugar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC09B226C5D5DFA427D8B46412D8A9AA /* FBObjcSugar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E96267B3B7A11BB1F3FF49699FB1ED3 /* Build configuration list for PBXNativeTarget "FBObjcSugar" */;
+			buildPhases = (
+				C2B95416C3D7E5B4E7B9206361D9B11A /* Sources */,
+				059ECF33D5955EF19B1F316686C6FAFF /* Frameworks */,
+				674C96AC70E75012478E654BDA44F142 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBObjcSugar;
+			productName = FBObjcSugar;
+			productReference = 70CF6080D6932B1AB555D5B280315C65 /* FBObjcSugar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -379,8 +365,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,38 +376,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4E9D9B176CAE649757A6195FEC88C3C0 /* Products */;
+			productRefGroup = 5A6CBBE6AAE453866FC906A3408E0275 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21430B7F3E3FCA9D733D8EBDD54F1D7B /* FBObjcSugar */,
+				BC09B226C5D5DFA427D8B46412D8A9AA /* FBObjcSugar */,
 				80FB7725C71F0086E84007A1E76E4317 /* Pods-FBObjcSugar_Example */,
-				50D977615690E7AF653B70867E2E5430 /* Pods-FBObjcSugar_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1FF3C00C8FD411D8D7BD1D3EEE7830BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F7E856530811D926AF89C912180745F /* FBObjcSugar-dummy.m in Sources */,
-				6F529DBC3C83F061D2936C16D1132262 /* NSDate+FBObjcSugar.m in Sources */,
-				9C89B1A3DB016C515FA3D68DD70A1070 /* NSString+FBObjcSugar.m in Sources */,
-				15E23D109E8B219E4E27038CCECB449B /* UIButton+FBBlockSugar.m in Sources */,
-				DAD4E471A3248FE925454529E4AE3CAD /* UIButton+FBObjcSugar.m in Sources */,
-				B27E0C76957A68C6220ABD2CF45A606C /* UIColor+FBObjcSugar.m in Sources */,
-				4ACE712DB57EDF50A2E144D50AF175EE /* UIGestureRecognizer+FBBlocjSugar.m in Sources */,
-				1C46DA4F45CEF0112457A606DDDC45A6 /* UIImage+FBObjcSugar.m in Sources */,
-				3D5D2F63CE7481D91DF9E2D096A7EE1A /* UILabel+FBObjcSugar.m in Sources */,
-				CF89B81DDD265E3661C2D666CF594CAA /* UINavigationController+FBObjcSugar.m in Sources */,
-				70BC1B2C848418107BBF39A906A5C180 /* UIScreen+FBObjcSugar.m in Sources */,
-				F34444AF8B47D8BE0EC621F864F5664F /* UITextField+FBObjcSugar.m in Sources */,
-				41FFCDFA03ABBD90BD5D103A035DE2F7 /* UIView+FBObjcSugar.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		564A0E5D140B205DF373F78748AC1931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,11 +395,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6077A58EA01D885C23345E310691D9D2 /* Sources */ = {
+		C2B95416C3D7E5B4E7B9206361D9B11A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F61267D38264F3BB8DE71911033460 /* Pods-FBObjcSugar_Tests-dummy.m in Sources */,
+				57718DD73768455F8C04BB6AF3A88BC3 /* FBObjcSugar-dummy.m in Sources */,
+				23DFA355136ACB0012FB06B83788CEFE /* NSDate+FBObjcSugar.m in Sources */,
+				478F241D8175EC4F9F13034EF642289E /* NSObject+FBLogSuagr.m in Sources */,
+				4C4BAC80D7300281A0DE37848CAE8DD0 /* NSString+FBObjcSugar.m in Sources */,
+				EFFC4DE5838A731B89BFC27A41359D2E /* UIButton+FBBlockSugar.m in Sources */,
+				5DC7CD0D70BD723B3D9BE5D3647BA20D /* UIButton+FBObjcSugar.m in Sources */,
+				C343A26E12949923250CB5B6B22A78FB /* UIColor+FBObjcSugar.m in Sources */,
+				EEEAE5EB868EAC0F11324D6D7EB09E5C /* UIGestureRecognizer+FBBlocjSugar.m in Sources */,
+				96C57042A856ADA501A03A658E55CB5F /* UIImage+FBObjcSugar.m in Sources */,
+				F764541E7AB5EF9001D7E38834FAF589 /* UILabel+FBObjcSugar.m in Sources */,
+				EBB64AE6516B9CA7B2BA722B01FBA67E /* UINavigationController+FBObjcSugar.m in Sources */,
+				F90DC2372D79240F7164F2EADC5BA10E /* UIScreen+FBObjcSugar.m in Sources */,
+				3AB93C378811170628D967A159200FC8 /* UITextField+FBObjcSugar.m in Sources */,
+				BD1278F483DCC11AFEB2801585E76683 /* UIView+FBObjcSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,13 +422,80 @@
 		D404DA301C3DD4DCBF4EB0092F8E9FC4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBObjcSugar;
-			target = 21430B7F3E3FCA9D733D8EBDD54F1D7B /* FBObjcSugar */;
+			target = BC09B226C5D5DFA427D8B46412D8A9AA /* FBObjcSugar */;
 			targetProxy = FE3CB5F1E3AACA00BEC96D3C5E6F59A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		14107708B6B614B70167B3761CF11315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6EF811E2855CDEB3C18087AFE8EF3B /* Pods-FBObjcSugar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Pods-FBObjcSugar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F501AD10AFB7F3A885490E15A06856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8C4D8F66D32D97A191A9E3B094775B /* Pods-FBObjcSugar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Pods-FBObjcSugar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,10 +505,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -471,6 +518,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -479,6 +527,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -503,14 +552,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -520,10 +568,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -531,6 +581,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -539,6 +590,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -559,112 +611,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7566626E3BF1B67F6D004F9251E3C1D7 /* Debug */ = {
+		CBAD1572C273333E0E885C86BBA699A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9159B4BD54E29B57A32C952227AED0B /* Pods-FBObjcSugar_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Tests/Pods-FBObjcSugar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FBObjcSugar_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		92172D21282B82F6A9761BF4E3F47940 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B409536244B6A03F2ACECA280CDF3BBE /* Pods-FBObjcSugar_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Tests/Pods-FBObjcSugar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FBObjcSugar_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C291CA29A5A9BDCDD48871F7E7023E68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C529112BF270DC64590E8DBBDE614BB /* Pods-FBObjcSugar_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Pods-FBObjcSugar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FBObjcSugar_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3651DE720BD6B02B7DC1DE0979E1C19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A87BC95A3BCF489E4A8787EA1E0E9D3C /* FBObjcSugar.xcconfig */;
+			baseConfigurationReference = F2F0A97AF453C3E5FB5B15F7C4CF5E37 /* FBObjcSugar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -681,6 +635,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBObjcSugar/FBObjcSugar.modulemap";
+				PRODUCT_MODULE_NAME = FBObjcSugar;
 				PRODUCT_NAME = FBObjcSugar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -692,9 +647,9 @@
 			};
 			name = Release;
 		};
-		D5C719D9936F99908503EE19A3337859 /* Debug */ = {
+		F153308A743A066487C8DCF75CDAAF98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A87BC95A3BCF489E4A8787EA1E0E9D3C /* FBObjcSugar.xcconfig */;
+			baseConfigurationReference = F2F0A97AF453C3E5FB5B15F7C4CF5E37 /* FBObjcSugar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -711,6 +666,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FBObjcSugar/FBObjcSugar.modulemap";
+				PRODUCT_MODULE_NAME = FBObjcSugar;
 				PRODUCT_NAME = FBObjcSugar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -720,66 +676,24 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		EBA98964A9A21A77A2D3443D48F1266E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D9F29C2AB8D882FA0643186ECAA1762 /* Pods-FBObjcSugar_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBObjcSugar_Example/Pods-FBObjcSugar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FBObjcSugar_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1221469CCE1BA1175D5B711B3EAD412B /* Build configuration list for PBXNativeTarget "FBObjcSugar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5C719D9936F99908503EE19A3337859 /* Debug */,
-				D3651DE720BD6B02B7DC1DE0979E1C19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30BAD92C77B202C3D5EB8395104CE0BD /* Build configuration list for PBXNativeTarget "Pods-FBObjcSugar_Tests" */ = {
+		4E96267B3B7A11BB1F3FF49699FB1ED3 /* Build configuration list for PBXNativeTarget "FBObjcSugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7566626E3BF1B67F6D004F9251E3C1D7 /* Debug */,
-				92172D21282B82F6A9761BF4E3F47940 /* Release */,
+				F153308A743A066487C8DCF75CDAAF98 /* Debug */,
+				CBAD1572C273333E0E885C86BBA699A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -787,8 +701,8 @@
 		59B2CE55A4885627834D8D29CB2A5861 /* Build configuration list for PBXNativeTarget "Pods-FBObjcSugar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C291CA29A5A9BDCDD48871F7E7023E68 /* Debug */,
-				EBA98964A9A21A77A2D3443D48F1266E /* Release */,
+				59F501AD10AFB7F3A885490E15A06856 /* Debug */,
+				14107708B6B614B70167B3761CF11315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

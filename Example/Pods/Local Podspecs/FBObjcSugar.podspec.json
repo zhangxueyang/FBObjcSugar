@@ -1,22 +1,39 @@
 {
   "name": "FBObjcSugar",
-  "version": "0.1.0",
-  "summary": "A short description of FBObjcSugar.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "quick create code.",
+  "description": "quick create objc code",
   "homepage": "https://github.com/zhangxueyang/FBObjcSugar",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
   "authors": {
-    "zhangxueyang": "cocoazxy@gmail.com"
+    "cocoazxy": "cocoazxy@gmail.com"
   },
   "source": {
     "git": "https://github.com/zhangxueyang/FBObjcSugar.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "FBObjcSugar/Classes/**/*"
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics",
+    "UIKit"
+  ],
+  "source_files": "FBObjcSugar/Classes/FBObjcSugar.h",
+  "subspecs": [
+    {
+      "name": "FBQuickUI",
+      "source_files": "FBObjcSugar/Classes/FBQuickUI/**/*"
+    },
+    {
+      "name": "FBQuickFoundation",
+      "source_files": "FBObjcSugar/Classes/FBQuickFoundation/**/*"
+    },
+    {
+      "name": "FBJsonlog",
+      "source_files": "FBObjcSugar/Classes/FBJsonlog/**/*"
+    }
+  ]
 }

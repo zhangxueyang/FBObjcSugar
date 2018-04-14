@@ -1,42 +1,37 @@
-#
-# Be sure to run `pod lib lint FBObjcSugar.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'FBObjcSugar'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FBObjcSugar.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    s.name         = "FBObjcSugar"
+    s.version      = "0.3.0"
+    s.summary      = "quick create code."
+    s.description  = <<-DESC
+    quick create objc code
+    DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/zhangxueyang/FBObjcSugar'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangxueyang' => 'cocoazxy@gmail.com' }
-  s.source           = { :git => 'https://github.com/zhangxueyang/FBObjcSugar.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.homepage     = "https://github.com/zhangxueyang/FBObjcSugar"
+    s.license      = "MIT"
 
-  s.ios.deployment_target = '8.0'
+    s.author             = { "cocoazxy" => "cocoazxy@gmail.com" }
+    s.source       = { :git => "https://github.com/zhangxueyang/FBObjcSugar.git", :tag => "#{s.version}" }
 
-  s.source_files = 'FBObjcSugar/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FBObjcSugar' => ['FBObjcSugar/Assets/*.png']
-  # }
+    s.platform     = :ios, '7.0'
+    s.requires_arc = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+
+    s.source_files  = 'FBObjcSugar/Classes/FBObjcSugar.h'
+
+    s.subspec 'FBQuickUI' do |ui|
+        ui.source_files = 'FBObjcSugar/Classes/FBQuickUI/**/*'
+    end
+
+    s.subspec 'FBQuickFoundation' do |foun|
+        foun.source_files = 'FBObjcSugar/Classes/FBQuickFoundation/**/*'
+    end
+    
+    s.subspec 'FBJsonlog' do |log|
+        log.source_files = 'FBObjcSugar/Classes/FBJsonlog/**/*'
+    end
+
+
 end

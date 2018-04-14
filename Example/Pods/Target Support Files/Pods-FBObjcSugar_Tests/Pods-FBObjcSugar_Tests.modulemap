@@ -1,6 +1,0 @@
-framework module Pods_FBObjcSugar_Tests {
-  umbrella header "Pods-FBObjcSugar_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

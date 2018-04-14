@@ -1,16 +1,22 @@
 PODS:
-  - FBObjcSugar (0.1.0)
+  - FBObjcSugar (0.3.0):
+    - FBObjcSugar/FBJsonlog (= 0.3.0)
+    - FBObjcSugar/FBQuickFoundation (= 0.3.0)
+    - FBObjcSugar/FBQuickUI (= 0.3.0)
+  - FBObjcSugar/FBJsonlog (0.3.0)
+  - FBObjcSugar/FBQuickFoundation (0.3.0)
+  - FBObjcSugar/FBQuickUI (0.3.0)
 
 DEPENDENCIES:
   - FBObjcSugar (from `../`)
 
 EXTERNAL SOURCES:
   FBObjcSugar:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBObjcSugar: f288c750914ad2da4865446f40f2ebf9679d0071
+  FBObjcSugar: b50340e93c2fc032440a0caf607cfb74809740de
 
-PODFILE CHECKSUM: 12e71771f647c3ec02197006b30366dba6637a5f
+PODFILE CHECKSUM: 5ebae53eac048307b413c217c4a5e46b45112ac5
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0.beta.1
