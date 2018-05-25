@@ -21,7 +21,6 @@
 #import "UIButton+FBBlockSugar.h"
 #import "UIButton+FBObjcSugar.h"
 #import "UILabel+FBObjcSugar.h"
-#import "UINavigationController+FBObjcSugar.h"
 #import "UITextField+FBObjcSugar.h"
 #import "UIView+FBObjcSugar.h"
 

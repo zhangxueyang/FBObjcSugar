@@ -1,6 +1,6 @@
 {
   "name": "FBObjcSugar",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "quick create code.",
   "description": "quick create objc code",
   "homepage": "https://github.com/zhangxueyang/FBObjcSugar",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/zhangxueyang/FBObjcSugar.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "7.0"

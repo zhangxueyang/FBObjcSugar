@@ -51,14 +51,14 @@
     if (imageName != nil) {
         [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
         
-        NSString *highlightedImageName = [imageName stringByAppendingString:highlightSuffix];
+        NSString *highlightedImageName = [imageName stringByAppendingString:highlightSuffix?highlightSuffix:@""];
         [button setImage:[UIImage imageNamed:highlightedImageName] forState:UIControlStateHighlighted];
     }
     
     if (backImageName != nil) {
         [button setBackgroundImage:[UIImage imageNamed:backImageName] forState:UIControlStateNormal];
         
-        NSString *highlightedImageName = [backImageName stringByAppendingString:highlightSuffix];
+        NSString *highlightedImageName = [backImageName stringByAppendingString:highlightSuffix?highlightSuffix:@""];
         [button setBackgroundImage:[UIImage imageNamed:highlightedImageName] forState:UIControlStateHighlighted];
     }
     

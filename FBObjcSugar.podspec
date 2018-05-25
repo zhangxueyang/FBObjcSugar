@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "FBObjcSugar"
-    s.version      = "0.3.0"
+    s.version      = "0.4.0"
     s.summary      = "quick create code."
     s.description  = <<-DESC
     quick create objc code
