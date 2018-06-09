@@ -1,15 +1,28 @@
 # FBObjcSugar
 
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
 
-
 ```ruby
+
 pod 'FBObjcSugar'
+
+-------------------------------------------------------------
+如果遇到搜索不出来
+Unable to find a pod with name, author, summary, or descriptionmatching 'xxxxxxx'。
+-------------------------------------------------------------
+解决办法:
+1:(手动删除)
+找到  ~/Library/Caches/CocoaPods  目录下的 search_index.json 文件,并删除
+然后再
+pod setup
+成功后会生成新的
+~/Library/Caches/CocoaPods/search_index.json文件。
+-------------------------------------------------------------
+2:终端输入以下命令（命令行）
+rm ~/Library/Caches/CocoaPods/search_index.json
+pod search
+-------------------------------------------------------------
+
 ```
 
 ## 说明
