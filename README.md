@@ -14,7 +14,8 @@ pod 'FBObjcSugar'
 
 ## 说明
 ```
-
+可以在控制台输出中文的NDDictionary
+-(void)fb_descriptionJson:(NSDictionary *)dicM callBack:(void(^)(NSString * logMessage))callBack;
 
 ```
 
